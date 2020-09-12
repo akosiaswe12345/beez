@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1377CFC4F7285D07B91B5D589BDA3774"
-               BuildableName = "SHSPhoneComponentSwift.framework"
-               BlueprintName = "SHSPhoneComponentSwift"
+               BlueprintIdentifier = "069F3105077AC034B5D54094BF3F38FD"
+               BuildableName = "ADCountryPicker"
+               BlueprintName = "ADCountryPicker"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
