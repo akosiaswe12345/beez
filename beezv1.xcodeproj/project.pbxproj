@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		87D3F8C5128522B484966109 /* Pods_beezv1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF07DF4D711BBF05D7836070 /* Pods_beezv1.framework */; };
+		BB12A838250C69A1001BF4A0 /* ADCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB12A837250C69A0001BF4A0 /* ADCountry.swift */; };
+		BB12A83C250C69AD001BF4A0 /* ADCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB12A83B250C69AD001BF4A0 /* ADCountryPicker.swift */; };
+		BB12A83E250C69B3001BF4A0 /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB12A83D250C69B3001BF4A0 /* CallingCodes.plist */; };
+		BB12A840250C6B62001BF4A0 /* assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB12A83F250C6B62001BF4A0 /* assets.bundle */; };
 		BB4DFCB8250C2403007BDE0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4DFCB7250C2403007BDE0E /* AppDelegate.swift */; };
 		BB4DFCBC250C2403007BDE0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4DFCBB250C2403007BDE0E /* ViewController.swift */; };
 		BB4DFCBF250C2403007BDE0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4DFCBD250C2403007BDE0E /* Main.storyboard */; };
@@ -30,6 +34,10 @@
 
 /* Begin PBXFileReference section */
 		0C40D899B7869DFC2D996F6D /* Pods-beezv1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beezv1.debug.xcconfig"; path = "Target Support Files/Pods-beezv1/Pods-beezv1.debug.xcconfig"; sourceTree = "<group>"; };
+		BB12A837250C69A0001BF4A0 /* ADCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADCountry.swift; sourceTree = "<group>"; };
+		BB12A83B250C69AD001BF4A0 /* ADCountryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADCountryPicker.swift; sourceTree = "<group>"; };
+		BB12A83D250C69B3001BF4A0 /* CallingCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CallingCodes.plist; sourceTree = "<group>"; };
+		BB12A83F250C6B62001BF4A0 /* assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = assets.bundle; sourceTree = "<group>"; };
 		BB4DFCB4250C2403007BDE0E /* beezv1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beezv1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4DFCB7250C2403007BDE0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB4DFCBB250C2403007BDE0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +81,16 @@
 				F7B5A01994C145F7F4CFE285 /* Pods-beezv1.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB12A836250C6974001BF4A0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BB12A83D250C69B3001BF4A0 /* CallingCodes.plist */,
+				BB12A83B250C69AD001BF4A0 /* ADCountryPicker.swift */,
+				BB12A837250C69A0001BF4A0 /* ADCountry.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		BB4DFCAB250C2403007BDE0E = {
@@ -130,6 +148,8 @@
 		BB4DFCCD250C24F0007BDE0E /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				BB12A83F250C6B62001BF4A0 /* assets.bundle */,
+				BB12A836250C6974001BF4A0 /* Source */,
 				BB4DFCDA250C28E8007BDE0E /* Constant.swift */,
 				BB4DFCD8250C28E3007BDE0E /* UIViewExtension.swift */,
 			);
@@ -211,6 +231,7 @@
 				BB4DFCB1250C2403007BDE0E /* Frameworks */,
 				BB4DFCB2250C2403007BDE0E /* Resources */,
 				E4235C85E006EEA160B60070 /* [CP] Embed Pods Frameworks */,
+				9BE78FBD8C613D13863D3394 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,9 +280,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB12A840250C6B62001BF4A0 /* assets.bundle in Resources */,
 				BB4DFCC4250C2405007BDE0E /* LaunchScreen.storyboard in Resources */,
 				BB4DFCD5250C27E8007BDE0E /* LoginStoryboard.storyboard in Resources */,
 				BB4DFCD3250C27DE007BDE0E /* CreateNewAccount.storyboard in Resources */,
+				BB12A83E250C69B3001BF4A0 /* CallingCodes.plist in Resources */,
 				BB4DFCC1250C2405007BDE0E /* Assets.xcassets in Resources */,
 				BB4DFCBF250C2403007BDE0E /* Main.storyboard in Resources */,
 				BB4DFCD7250C27EF007BDE0E /* DialogStoryboard.storyboard in Resources */,
@@ -271,6 +294,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9BE78FBD8C613D13863D3394 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-beezv1/Pods-beezv1-resources.sh",
+				"${PODS_ROOT}/ADCountryPicker/Source/assets.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/assets.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-beezv1/Pods-beezv1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C97795F5B1027EE4742129AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,7 +347,6 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-beezv1/Pods-beezv1-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ADCountryPicker/ADCountryPicker.framework",
 				"${BUILT_PRODUCTS_DIR}/DTGradientButton/DTGradientButton.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 			);
@@ -310,7 +354,6 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ADCountryPicker.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTGradientButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 			);
@@ -335,8 +378,10 @@
 				BB4DFCE1250C2F71007BDE0E /* ForgotPasswordViewController.swift in Sources */,
 				BB4DFCE9250C2F8F007BDE0E /* CreateNewAccountViewController.swift in Sources */,
 				BB4DFCB8250C2403007BDE0E /* AppDelegate.swift in Sources */,
+				BB12A83C250C69AD001BF4A0 /* ADCountryPicker.swift in Sources */,
 				BB4DFCE3250C2F76007BDE0E /* ForgotPasswordCodeViewController.swift in Sources */,
 				BB4DFCDF250C2F6B007BDE0E /* LoginViewController.swift in Sources */,
+				BB12A838250C69A1001BF4A0 /* ADCountry.swift in Sources */,
 				BB4DFCDB250C28E8007BDE0E /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

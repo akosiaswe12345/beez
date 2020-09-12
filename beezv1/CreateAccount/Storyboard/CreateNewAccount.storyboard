@@ -11,7 +11,7 @@
         <!--Create New Account View Controller-->
         <scene sceneID="XwW-lc-B0Y">
             <objects>
-                <viewController id="S9u-xV-5tO" customClass="CreateNewAccountViewController" customModule="MVP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="S9u-xV-5tO" customClass="CreateNewAccountViewController" customModule="beezv1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SDv-ot-4AX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,7 +140,7 @@
                                 <color key="textColor" red="0.41568627450000001" green="0.40784313729999999" blue="0.38431372549999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rrm-5a-rea" customClass="UIShowHideTextField" customModule="MVP" customModuleProvider="target">
+                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rrm-5a-rea" customClass="UIShowHideTextField" customModule="beezv1" customModuleProvider="target">
                                 <rect key="frame" x="38" y="251" width="299" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="299" id="ieh-Ob-4bv"/>
@@ -159,7 +159,7 @@
                                 <color key="textColor" red="0.41568627450000001" green="0.40784313729999999" blue="0.38431372549999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tEa-FM-eoi" customClass="UIShowHideTextField" customModule="MVP" customModuleProvider="target">
+                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tEa-FM-eoi" customClass="UIShowHideTextField" customModule="beezv1" customModuleProvider="target">
                                 <rect key="frame" x="38" y="338" width="299" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="299" id="EXm-ed-Db4"/>
@@ -261,7 +261,7 @@
         <!--Verify Email View Controller-->
         <scene sceneID="3pG-aE-Jvh">
             <objects>
-                <viewController id="bH2-D2-Hck" customClass="VerifyEmailViewController" customModule="MVP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bH2-D2-Hck" customClass="VerifyEmailViewController" customModule="beezv1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TMS-Gu-Yz2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -269,7 +269,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="nPd-yC-jXg">
                                 <rect key="frame" x="38" y="235" width="299" height="35"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MS1-Kl-KQh" customClass="SDCTextField" customModule="MVP" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MS1-Kl-KQh" customClass="SDCTextField" customModule="beezv1" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="34" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="3fa-Q3-RoS"/>
@@ -278,7 +278,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wlx-Qd-f0z" customClass="SDCTextField" customModule="MVP" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wlx-Qd-f0z" customClass="SDCTextField" customModule="beezv1" customModuleProvider="target">
                                         <rect key="frame" x="53" y="0.0" width="34" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="L07-Ts-qtW"/>
@@ -287,7 +287,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qEh-yu-b7q" customClass="SDCTextField" customModule="MVP" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qEh-yu-b7q" customClass="SDCTextField" customModule="beezv1" customModuleProvider="target">
                                         <rect key="frame" x="106" y="0.0" width="34" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="fET-MI-crN"/>
@@ -296,7 +296,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lsz-1V-equ" customClass="SDCTextField" customModule="MVP" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lsz-1V-equ" customClass="SDCTextField" customModule="beezv1" customModuleProvider="target">
                                         <rect key="frame" x="159" y="0.0" width="34" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="34" id="coE-oY-b3e"/>
@@ -305,7 +305,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V8j-1i-fd4" customClass="SDCTextField" customModule="MVP" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V8j-1i-fd4" customClass="SDCTextField" customModule="beezv1" customModuleProvider="target">
                                         <rect key="frame" x="212" y="0.0" width="34" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="34" id="hIT-TB-Pee"/>
@@ -314,7 +314,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lys-Ma-CcX" customClass="SDCTextField" customModule="MVP" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lys-Ma-CcX" customClass="SDCTextField" customModule="beezv1" customModuleProvider="target">
                                         <rect key="frame" x="265" y="0.0" width="34" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="Ul3-38-nV3"/>
@@ -440,7 +440,7 @@
         <!--Phone Number Verification View Controller-->
         <scene sceneID="gib-C6-1bF">
             <objects>
-                <viewController id="sYf-Zr-yMH" customClass="PhoneNumberVerificationViewController" customModule="MVP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="sYf-Zr-yMH" customClass="PhoneNumberVerificationViewController" customModule="beezv1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dud-Xj-sNW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -489,7 +489,7 @@
                                 <color key="textColor" red="0.41568627450000001" green="0.40784313729999999" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ddQ-8l-MwF">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ddQ-8l-MwF" customClass="SDCTextField" customModule="beezv1" customModuleProvider="target">
                                 <rect key="frame" x="38" y="255" width="299" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="N2Z-CX-fq4"/>
@@ -519,6 +519,16 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9j-g6-Njg">
+                                <rect key="frame" x="38" y="247" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="aMg-aB-3Nc"/>
+                                    <constraint firstAttribute="width" constant="50" id="l8R-fX-4UC"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="btnSelectPhone:" destination="sYf-Zr-yMH" eventType="touchUpInside" id="4Eu-7k-rHw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -534,10 +544,13 @@
                             <constraint firstItem="A1j-Bh-tV4" firstAttribute="centerY" secondItem="dud-Xj-sNW" secondAttribute="centerY" constant="-174" id="OyJ-XT-AZZ"/>
                             <constraint firstItem="A1j-Bh-tV4" firstAttribute="centerX" secondItem="dud-Xj-sNW" secondAttribute="centerX" id="Pca-FL-pKN"/>
                             <constraint firstItem="gJi-RJ-tN3" firstAttribute="centerX" secondItem="dud-Xj-sNW" secondAttribute="centerX" id="SKC-EU-DSX"/>
+                            <constraint firstItem="M9j-g6-Njg" firstAttribute="leading" secondItem="jtK-O1-K5q" secondAttribute="leading" constant="38" id="YOE-Qw-ZO5"/>
                             <constraint firstItem="A1j-Bh-tV4" firstAttribute="leading" secondItem="jtK-O1-K5q" secondAttribute="leading" constant="61" id="b4o-YZ-4z1"/>
                             <constraint firstItem="ddQ-8l-MwF" firstAttribute="leading" secondItem="jtK-O1-K5q" secondAttribute="leading" constant="38" id="bjk-Lw-2K5"/>
                             <constraint firstItem="2j9-Ib-U2l" firstAttribute="centerX" secondItem="dud-Xj-sNW" secondAttribute="centerX" id="fvT-qm-Oo0"/>
                             <constraint firstItem="A1j-Bh-tV4" firstAttribute="top" secondItem="2j9-Ib-U2l" secondAttribute="bottom" constant="26" id="gaa-wm-0yc"/>
+                            <constraint firstItem="M9j-g6-Njg" firstAttribute="centerY" secondItem="dud-Xj-sNW" secondAttribute="centerY" constant="-61.5" id="mdW-L0-Mir"/>
+                            <constraint firstItem="M9j-g6-Njg" firstAttribute="centerX" secondItem="dud-Xj-sNW" secondAttribute="centerX" constant="-124.5" id="nKa-uE-atZ"/>
                             <constraint firstItem="jtK-O1-K5q" firstAttribute="trailing" secondItem="A1j-Bh-tV4" secondAttribute="trailing" constant="61" id="vyW-1q-UJF"/>
                             <constraint firstItem="KrW-xD-SzC" firstAttribute="top" secondItem="jtK-O1-K5q" secondAttribute="top" constant="20" id="wEG-3B-b6w"/>
                         </constraints>
@@ -545,7 +558,7 @@
                     </view>
                     <connections>
                         <outlet property="btnContinue" destination="gJi-RJ-tN3" id="Icu-z7-mYQ"/>
-                        <outlet property="tfPhoneNumber" destination="ddQ-8l-MwF" id="aad-kw-9It"/>
+                        <outlet property="tfPhoneNumber" destination="ddQ-8l-MwF" id="zqB-GT-l5Q"/>
                         <segue destination="Wm5-t9-JKO" kind="unwind" identifier="createAccountVC" unwindAction="unwindCreateAccount:" id="tsL-mI-Xlq"/>
                         <segue destination="Wm5-t9-JKO" kind="unwind" unwindAction="unwindCreateAccount:" id="GnJ-XM-kTK"/>
                     </connections>
