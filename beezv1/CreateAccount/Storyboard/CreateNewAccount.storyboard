@@ -840,6 +840,9 @@
                                         <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="fMR-kL-1iy" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="QdH-qt-F2K"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V61-TA-59c">
                                 <rect key="frame" x="36" y="443" width="30" height="30"/>
@@ -880,6 +883,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zCk-Vq-yby" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="968.79999999999995" y="897.30134932533736"/>
+        </scene>
+        <!--CreateAccount2-->
+        <scene sceneID="GJ5-Q8-Y1y">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CreateAccount2" id="fMR-kL-1iy" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E1w-Ps-TtO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1754" y="907"/>
         </scene>
     </scenes>
     <resources>

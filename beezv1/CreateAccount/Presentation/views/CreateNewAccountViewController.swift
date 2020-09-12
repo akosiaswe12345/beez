@@ -20,7 +20,7 @@ class CreateNewAccountViewController: UIViewController {
     }
     
     func initView(){
-          btnGradient()
+        btnGradient()
       
     }
     
@@ -30,14 +30,14 @@ class CreateNewAccountViewController: UIViewController {
     
     @IBAction func unwindCreateAccount(_ segue: UIStoryboardSegue) {
            
-       }
+    }
     
     private func btnGradient(){
-           let colors = [hexStringToUIColor(hex: "#FFED86"), hexStringToUIColor(hex: "#FFB439")]
-           btnCreateAccount.setGradientBackgroundColors(colors, direction: .toBottomLeft, for: .normal)
-           btnCreateAccount.layer.cornerRadius = 5
-           btnCreateAccount.clipsToBounds = true
-       }
+        let colors = [hexStringToUIColor(hex: "#FFED86"), hexStringToUIColor(hex: "#FFB439")]
+        btnCreateAccount.setGradientBackgroundColors(colors, direction: .toBottomLeft, for: .normal)
+        btnCreateAccount.layer.cornerRadius = 5
+        btnCreateAccount.clipsToBounds = true
+    }
     
   
 
