@@ -48,7 +48,7 @@
 		BB12A83B250C69AD001BF4A0 /* ADCountryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADCountryPicker.swift; sourceTree = "<group>"; };
 		BB12A83D250C69B3001BF4A0 /* CallingCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CallingCodes.plist; sourceTree = "<group>"; };
 		BB12A83F250C6B62001BF4A0 /* assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = assets.bundle; sourceTree = "<group>"; };
-		BB4DFCB4250C2403007BDE0E /* beezv1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beezv1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB4DFCB4250C2403007BDE0E /* beez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4DFCB7250C2403007BDE0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB4DFCBB250C2403007BDE0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB4DFCBE250C2403007BDE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -150,7 +150,7 @@
 		BB4DFCB5250C2403007BDE0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB4DFCB4250C2403007BDE0E /* beezv1.app */,
+				BB4DFCB4250C2403007BDE0E /* beez.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,9 +269,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB4DFCB3250C2403007BDE0E /* beezv1 */ = {
+		BB4DFCB3250C2403007BDE0E /* beez */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB4DFCC8250C2405007BDE0E /* Build configuration list for PBXNativeTarget "beezv1" */;
+			buildConfigurationList = BB4DFCC8250C2405007BDE0E /* Build configuration list for PBXNativeTarget "beez" */;
 			buildPhases = (
 				C97795F5B1027EE4742129AB /* [CP] Check Pods Manifest.lock */,
 				BB4DFCB0250C2403007BDE0E /* Sources */,
@@ -284,9 +284,9 @@
 			);
 			dependencies = (
 			);
-			name = beezv1;
+			name = beez;
 			productName = beezv1;
-			productReference = BB4DFCB4250C2403007BDE0E /* beezv1.app */;
+			productReference = BB4DFCB4250C2403007BDE0E /* beez.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -304,7 +304,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BB4DFCAF250C2403007BDE0E /* Build configuration list for PBXProject "beezv1" */;
+			buildConfigurationList = BB4DFCAF250C2403007BDE0E /* Build configuration list for PBXProject "beez" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -317,7 +317,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB4DFCB3250C2403007BDE0E /* beezv1 */,
+				BB4DFCB3250C2403007BDE0E /* beez */,
 			);
 		};
 /* End PBXProject section */
@@ -617,7 +617,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB4DFCAF250C2403007BDE0E /* Build configuration list for PBXProject "beezv1" */ = {
+		BB4DFCAF250C2403007BDE0E /* Build configuration list for PBXProject "beez" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB4DFCC6250C2405007BDE0E /* Debug */,
@@ -626,7 +626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB4DFCC8250C2405007BDE0E /* Build configuration list for PBXNativeTarget "beezv1" */ = {
+		BB4DFCC8250C2405007BDE0E /* Build configuration list for PBXNativeTarget "beez" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB4DFCC9250C2405007BDE0E /* Debug */,

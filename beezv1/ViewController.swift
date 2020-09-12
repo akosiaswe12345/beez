@@ -11,7 +11,8 @@ import DTGradientButton
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var btnLogin: UIButton!
+    @IBOutlet weak var btnToLogin: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,9 +26,9 @@ class ViewController: UIViewController {
     
     private func btnGradient(){
         let colors = [hexStringToUIColor(hex: "#FFED86"), hexStringToUIColor(hex: "#FFB439")]
-        btnLogin.setGradientBackgroundColors(colors, direction: .toBottomLeft, for: .normal)
-        btnLogin.layer.cornerRadius = 5
-        btnLogin.clipsToBounds = true
+        btnToLogin.setGradientBackgroundColors(colors, direction: .toBottomLeft, for: .normal)
+        btnToLogin.layer.cornerRadius = 5
+        btnToLogin.clipsToBounds = true
     }
 
 

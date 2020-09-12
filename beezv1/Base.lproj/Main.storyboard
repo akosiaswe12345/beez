@@ -16,7 +16,7 @@
         <!--View Controller-->
         <scene sceneID="9AE-D6-7Tq">
             <objects>
-                <viewController id="DXI-zS-TVX" customClass="ViewController" customModule="beezv1" sceneMemberID="viewController">
+                <viewController id="DXI-zS-TVX" customClass="ViewController" customModule="beez" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5xZ-IX-fka">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,30 +28,6 @@
                                     <constraint firstAttribute="width" constant="246" id="mJw-3P-fHD"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ky-Um-p2f">
-                                <rect key="frame" x="38" y="447" width="299" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="299" id="Ako-m7-u96"/>
-                                    <constraint firstAttribute="height" constant="40" id="fyx-CV-mLb"/>
-                                </constraints>
-                                <state key="normal" title="Se connecter">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="taM-zo-AKA" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="8dd-kl-SkX"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Be yourself. Sois toi-même." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tiL-Hk-Ux4">
                                 <rect key="frame" x="87" y="365" width="201" height="18"/>
                                 <constraints>
@@ -86,26 +62,48 @@
                                     <segue destination="TPE-Q6-eg5" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="yk9-eC-dXi"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgF-SK-AXY">
+                                <rect key="frame" x="38" y="441" width="299" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="bzy-Kl-gbU"/>
+                                    <constraint firstAttribute="width" constant="299" id="wLZ-pq-5ov"/>
+                                </constraints>
+                                <state key="normal" title="Se connecter">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="taM-zo-AKA" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="uIB-IS-IiN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="8ky-Um-p2f" firstAttribute="centerX" secondItem="5xZ-IX-fka" secondAttribute="centerX" id="02V-XX-YeP"/>
                             <constraint firstItem="rHy-g2-ngX" firstAttribute="trailing" secondItem="uGq-l6-ieB" secondAttribute="trailing" constant="38" id="7Do-jO-qzq"/>
-                            <constraint firstItem="8ky-Um-p2f" firstAttribute="centerY" secondItem="5xZ-IX-fka" secondAttribute="centerY" constant="133.5" id="8i5-gh-u6W"/>
                             <constraint firstItem="PTT-OH-i8G" firstAttribute="centerX" secondItem="5xZ-IX-fka" secondAttribute="centerX" id="A5s-jH-ePP"/>
                             <constraint firstItem="tiL-Hk-Ux4" firstAttribute="centerX" secondItem="5xZ-IX-fka" secondAttribute="centerX" id="FAI-E2-W0O"/>
                             <constraint firstItem="tiL-Hk-Ux4" firstAttribute="centerY" secondItem="5xZ-IX-fka" secondAttribute="centerY" constant="40.5" id="NgZ-mv-5D8"/>
+                            <constraint firstItem="SgF-SK-AXY" firstAttribute="centerX" secondItem="5xZ-IX-fka" secondAttribute="centerX" id="QIE-OB-tax"/>
                             <constraint firstItem="uGq-l6-ieB" firstAttribute="leading" secondItem="rHy-g2-ngX" secondAttribute="leading" constant="38" id="WuN-fJ-RkR"/>
                             <constraint firstItem="uGq-l6-ieB" firstAttribute="centerX" secondItem="5xZ-IX-fka" secondAttribute="centerX" id="dKB-Jo-gA7"/>
-                            <constraint firstItem="rHy-g2-ngX" firstAttribute="trailing" secondItem="8ky-Um-p2f" secondAttribute="trailing" constant="38" id="iDb-ld-i3A"/>
-                            <constraint firstItem="8ky-Um-p2f" firstAttribute="leading" secondItem="rHy-g2-ngX" secondAttribute="leading" constant="38" id="mc1-br-rcy"/>
+                            <constraint firstItem="SgF-SK-AXY" firstAttribute="centerY" secondItem="5xZ-IX-fka" secondAttribute="centerY" constant="127.5" id="hcv-cI-5Y1"/>
                             <constraint firstItem="PTT-OH-i8G" firstAttribute="centerY" secondItem="5xZ-IX-fka" secondAttribute="centerY" constant="-122.5" id="p7K-Xd-HAg"/>
                             <constraint firstItem="uGq-l6-ieB" firstAttribute="centerY" secondItem="5xZ-IX-fka" secondAttribute="centerY" constant="196.5" id="zHS-PN-90I"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rHy-g2-ngX"/>
                     </view>
                     <connections>
-                        <outlet property="btnLogin" destination="8ky-Um-p2f" id="WXn-eq-Rde"/>
+                        <outlet property="btnToLogin" destination="SgF-SK-AXY" id="KS3-5v-Mg8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s8L-sY-eXd" sceneMemberID="firstResponder"/>
