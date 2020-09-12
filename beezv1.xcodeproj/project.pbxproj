@@ -12,6 +12,7 @@
 		BB035A9B250C8C1200BD7E88 /* WelcomeToBeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB035A9A250C8C1200BD7E88 /* WelcomeToBeeViewController.swift */; };
 		BB035AA1250C97F600BD7E88 /* CreateAccount2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB035AA0250C97F600BD7E88 /* CreateAccount2.storyboard */; };
 		BB035AA3250C9F2500BD7E88 /* WhoAreYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB035AA2250C9F2500BD7E88 /* WhoAreYouViewController.swift */; };
+		BB035AA5250CA90500BD7E88 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB035AA4250CA90500BD7E88 /* GenderViewController.swift */; };
 		BB12A838250C69A1001BF4A0 /* ADCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB12A837250C69A0001BF4A0 /* ADCountry.swift */; };
 		BB12A83C250C69AD001BF4A0 /* ADCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB12A83B250C69AD001BF4A0 /* ADCountryPicker.swift */; };
 		BB12A83E250C69B3001BF4A0 /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB12A83D250C69B3001BF4A0 /* CallingCodes.plist */; };
@@ -42,6 +43,7 @@
 		BB035A9A250C8C1200BD7E88 /* WelcomeToBeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeToBeeViewController.swift; sourceTree = "<group>"; };
 		BB035AA0250C97F600BD7E88 /* CreateAccount2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateAccount2.storyboard; sourceTree = "<group>"; };
 		BB035AA2250C9F2500BD7E88 /* WhoAreYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoAreYouViewController.swift; sourceTree = "<group>"; };
+		BB035AA4250CA90500BD7E88 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
 		BB12A837250C69A0001BF4A0 /* ADCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADCountry.swift; sourceTree = "<group>"; };
 		BB12A83B250C69AD001BF4A0 /* ADCountryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADCountryPicker.swift; sourceTree = "<group>"; };
 		BB12A83D250C69B3001BF4A0 /* CallingCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CallingCodes.plist; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				BB035AA2250C9F2500BD7E88 /* WhoAreYouViewController.swift */,
+				BB035AA4250CA90500BD7E88 /* GenderViewController.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				BB4DFCBC250C2403007BDE0E /* ViewController.swift in Sources */,
 				BB4DFCE1250C2F71007BDE0E /* ForgotPasswordViewController.swift in Sources */,
 				BB4DFCE9250C2F8F007BDE0E /* CreateNewAccountViewController.swift in Sources */,
+				BB035AA5250CA90500BD7E88 /* GenderViewController.swift in Sources */,
 				BB035AA3250C9F2500BD7E88 /* WhoAreYouViewController.swift in Sources */,
 				BB4DFCB8250C2403007BDE0E /* AppDelegate.swift in Sources */,
 				BB035A9B250C8C1200BD7E88 /* WelcomeToBeeViewController.swift in Sources */,
