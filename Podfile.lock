@@ -1,24 +1,24 @@
 PODS:
+  - ADCountryPicker (2.1.0)
   - DTGradientButton (0.1.3)
   - IQKeyboardManagerSwift (6.5.5)
-  - SHSPhoneComponentSwift (0.98)
 
 DEPENDENCIES:
+  - ADCountryPicker (~> 2.1.0)
   - DTGradientButton
   - IQKeyboardManagerSwift
-  - SHSPhoneComponentSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - ADCountryPicker
     - DTGradientButton
     - IQKeyboardManagerSwift
-    - SHSPhoneComponentSwift
 
 SPEC CHECKSUMS:
+  ADCountryPicker: 502cee76a30ea1c3834eb0df170ce635691655c9
   DTGradientButton: 6f0f696cd433255d226c05e4ab047d991d13d4ef
   IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
-  SHSPhoneComponentSwift: 16503214b5fb737b15423202b8208c73df9021f4
 
-PODFILE CHECKSUM: ecdc539b92857e170c9d26088aa369ed777bd209
+PODFILE CHECKSUM: 2fc5acd28b7db53f46dc01715947166426f1c453
 
 COCOAPODS: 1.6.1

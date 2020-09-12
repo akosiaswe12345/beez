@@ -7,6 +7,6 @@ target 'beezv1' do
 
    pod 'DTGradientButton'
    pod 'IQKeyboardManagerSwift'
-   pod 'SHSPhoneComponentSwift'
+   pod 'ADCountryPicker', '~> 2.1.0'
 
 end
