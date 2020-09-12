@@ -104,18 +104,21 @@ class UIShowHideTextField: UITextField {
     func toggle() {
         isSecureTextEntry = !isSecureTextEntry
         if isSecureTextEntry {
-            let image = UIImage(named: "showpass")
-            let tintedImage = image?.withRenderingMode(.alwaysTemplate)
-            rightButton.setImage(tintedImage , for: .normal)
-            rightButton.tintColor = hexStringToUIColor(hex: Constant.Color.PRIMARY_COLOR)
+            getImage(image: "showpass")
         } else {
-            let image = UIImage(named: "hidepass")
-            let tintedImage = image?.withRenderingMode(.alwaysTemplate)
-            rightButton.setImage(tintedImage , for: .normal)
-            rightButton.tintColor = hexStringToUIColor(hex: Constant.Color.PRIMARY_COLOR)
-           
+            getImage(image: "hidepass")
         }
     }
+    
+    private func getImage(image: String){
+        let image = UIImage(named: image)
+        let tintedImage = image?.withRenderingMode(.alwaysTemplate)
+        rightButton.setImage(tintedImage , for: .normal)
+        
+        rightButton.tintColor = hexStringToUIColor(hex: Constant.Color.PRIMARY_COLOR)
+        
+    }
+
 
 }
 

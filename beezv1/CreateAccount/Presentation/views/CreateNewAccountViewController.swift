@@ -18,10 +18,11 @@ class CreateNewAccountViewController: UIViewController {
         initView()
        
     }
+    
     func initView(){
           btnGradient()
       
-      }
+    }
     
     @IBAction func btnBack(_ sender: Any) {
         dismiss(animated: false, completion: nil)
