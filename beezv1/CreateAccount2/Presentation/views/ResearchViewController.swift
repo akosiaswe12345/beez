@@ -31,6 +31,7 @@ class ResearchViewController: UIViewController {
         getGenderDefault()
             
     }
+    
     @IBAction func btnBack(_ sender: Any) {
         dismiss(animated: false, completion: nil)
     }
@@ -86,6 +87,7 @@ class ResearchViewController: UIViewController {
     
     private func btnGradient(){
         let colors = [hexStringToUIColor(hex: "#FFED86"), hexStringToUIColor(hex: "#FFB439")]
+    
         btnContinue.setGradientBackgroundColors(colors, direction: .toBottomLeft, for: .normal)
         btnContinue.layer.cornerRadius = 5
         btnContinue.clipsToBounds = true
