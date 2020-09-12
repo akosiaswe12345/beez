@@ -1,49 +1,38 @@
 //
-//  GenderViewController.swift
-//  beezv1
+//  ResearchViewController.swift
+//  beez
 //
-//  Created by Taison Digital on 12/09/2020.
+//  Created by Taison Digital on 13/09/2020.
 //  Copyright © 2020 Taison Digital. All rights reserved.
 //
 
 import UIKit
 
-class GenderViewController: UIViewController {
-
-    @IBOutlet weak var viewLayer: UIView!
+class ResearchViewController: UIViewController {
+    
     @IBOutlet weak var btnContinue: UIButton!
+    @IBOutlet weak var viewLayer: UIView!
     
     @IBOutlet weak var imgMale: UIImageView!
     @IBOutlet weak var imgFemale: UIImageView!
+    @IBOutlet weak var imgBoth: UIImageView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-         initView()
-       
-    }
-    @IBAction func btnBack(_ sender: Any) {
-        dismiss(animated: false, completion: nil)
-    }
-    
-    func progressView(){
-        let colors = [hexStringToUIColor(hex: "#FFB439").cgColor, hexStringToUIColor(hex: "#FFED86").cgColor]
-             
-        viewLayer.layer.masksToBounds = true
-        viewLayer.layerGradient(startPoint: .centerRight, endPoint: .centerLeft, colorArray: colors, type: .axial)
+        initView()
+      
     }
     
     func initView(){
         btnGradient()
         progressView()
         getGenderDefault()
-         
+            
     }
-    
-    func getGenderDefault(){
-        imgMale.image = UIImage(named:  "circle.png")
-        imgFemale.image = UIImage(named:  "circle.png")
+    @IBAction func btnBack(_ sender: Any) {
+        dismiss(animated: false, completion: nil)
     }
     
     @IBAction func btnGender(_ sender: UIButton) {
@@ -56,6 +45,8 @@ class GenderViewController: UIViewController {
             imageGender(image: "checkCircle.png", image2: "circle.png", int: 1)
         case 2:
             imageGender(image: "checkCircle.png", image2: "circle.png", int: 2)
+        case 3:
+            imageGender(image: "checkCircle.png", image2: "circle.png", int: 3)
         default:
             break
         }
@@ -66,12 +57,31 @@ class GenderViewController: UIViewController {
         case 1:
             imgMale.image = UIImage(named: image)
             imgFemale.image = UIImage(named: image2)
+            imgBoth.image = UIImage(named: image2)
         case 2:
             imgMale.image = UIImage(named: image2)
             imgFemale.image = UIImage(named: image)
+            imgBoth.image = UIImage(named: image2)
+        case 3:
+            imgMale.image = UIImage(named: image2)
+            imgFemale.image = UIImage(named: image2)
+            imgBoth.image = UIImage(named: image)
         default:
             break
         }
+    }
+    
+    func getGenderDefault(){
+        imgMale.image = UIImage(named:  "circle.png")
+        imgFemale.image = UIImage(named:  "circle.png")
+        imgBoth.image = UIImage(named:  "circle.png")
+    }
+    
+    func progressView(){
+        let colors = [hexStringToUIColor(hex: "#FFB439").cgColor, hexStringToUIColor(hex: "#FFED86").cgColor]
+             
+        viewLayer.layer.masksToBounds = true
+        viewLayer.layerGradient(startPoint: .centerRight, endPoint: .centerLeft, colorArray: colors, type: .axial)
     }
     
     private func btnGradient(){
