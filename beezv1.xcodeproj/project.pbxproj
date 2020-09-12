@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		87D3F8C5128522B484966109 /* Pods_beezv1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF07DF4D711BBF05D7836070 /* Pods_beezv1.framework */; };
+		BB035A99250C826100BD7E88 /* ChangePhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB035A98250C826100BD7E88 /* ChangePhoneNumberViewController.swift */; };
 		BB12A838250C69A1001BF4A0 /* ADCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB12A837250C69A0001BF4A0 /* ADCountry.swift */; };
 		BB12A83C250C69AD001BF4A0 /* ADCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB12A83B250C69AD001BF4A0 /* ADCountryPicker.swift */; };
 		BB12A83E250C69B3001BF4A0 /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB12A83D250C69B3001BF4A0 /* CallingCodes.plist */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		0C40D899B7869DFC2D996F6D /* Pods-beezv1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beezv1.debug.xcconfig"; path = "Target Support Files/Pods-beezv1/Pods-beezv1.debug.xcconfig"; sourceTree = "<group>"; };
+		BB035A98250C826100BD7E88 /* ChangePhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePhoneNumberViewController.swift; sourceTree = "<group>"; };
 		BB12A837250C69A0001BF4A0 /* ADCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADCountry.swift; sourceTree = "<group>"; };
 		BB12A83B250C69AD001BF4A0 /* ADCountryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADCountryPicker.swift; sourceTree = "<group>"; };
 		BB12A83D250C69B3001BF4A0 /* CallingCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CallingCodes.plist; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				BB4DFCE8250C2F8F007BDE0E /* CreateNewAccountViewController.swift */,
 				BB4DFCEA250C2F94007BDE0E /* VerifyEmailViewController.swift */,
 				BB4DFCEC250C2F9A007BDE0E /* PhoneNumberVerificationViewController.swift */,
+				BB035A98250C826100BD7E88 /* ChangePhoneNumberViewController.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 			files = (
 				BB4DFCD9250C28E3007BDE0E /* UIViewExtension.swift in Sources */,
 				BB4DFCE5250C2F7B007BDE0E /* ForgetPass2ViewController.swift in Sources */,
+				BB035A99250C826100BD7E88 /* ChangePhoneNumberViewController.swift in Sources */,
 				BB4DFCEB250C2F94007BDE0E /* VerifyEmailViewController.swift in Sources */,
 				BB4DFCED250C2F9A007BDE0E /* PhoneNumberVerificationViewController.swift in Sources */,
 				BB4DFCE7250C2F80007BDE0E /* DialogPasswordViewController.swift in Sources */,
