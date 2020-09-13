@@ -1,5 +1,5 @@
 //
-//  AgeRangeViewController.swift
+//  DistanceViewController.swift
 //  beez
 //
 //  Created by Taison Digital on 13/09/2020.
@@ -8,18 +8,16 @@
 
 import UIKit
 
-class AgeRangeViewController: UIViewController {
+class DistanceViewController: UIViewController {
     
     @IBOutlet weak var viewLayer: UIView!
     @IBOutlet weak var btnContinue: UIButton!
-    
-    @IBOutlet weak var lblAgeLimit: UILabel!
-    
     @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak var lblKM: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        initView()
+         initView()
     }
     
     func initView(){
@@ -33,11 +31,11 @@ class AgeRangeViewController: UIViewController {
     
     @IBAction func sliderAge(_ sender: UISlider) {
         let value = slider.value
-        let formatted = String(format: "%.2f", value)
+        let formatted = String(format: "%.3f", value)
         let result = String(formatted.dropFirst(2))
         
-        lblAgeLimit.text = result
-        print("GETVALUE", result)
+     //   lblAgeLimit.text = result
+        print("GETVALUE", formatted)
     }
     
     func progressView(){
@@ -46,11 +44,11 @@ class AgeRangeViewController: UIViewController {
         viewLayer.layer.masksToBounds = true
         viewLayer.layerGradient(startPoint: .centerRight, endPoint: .centerLeft, colorArray: colors, type: .axial)
     }
-   
+    
     private func btnGradient(){
-        let colors = [hexStringToUIColor(hex: "#FFED86"), hexStringToUIColor(hex: "#FFB439")]
-        btnContinue.setGradientBackgroundColors(colors, direction: .toBottomLeft, for: .normal)
-        btnContinue.layer.cornerRadius = 5
-        btnContinue.clipsToBounds = true
-    }
+           let colors = [hexStringToUIColor(hex: "#FFED86"), hexStringToUIColor(hex: "#FFB439")]
+           btnContinue.setGradientBackgroundColors(colors, direction: .toBottomLeft, for: .normal)
+           btnContinue.layer.cornerRadius = 5
+           btnContinue.clipsToBounds = true
+       }
 }
