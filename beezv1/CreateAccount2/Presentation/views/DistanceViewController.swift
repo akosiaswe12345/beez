@@ -70,5 +70,5 @@ class DistanceViewController: UIViewController {
            btnContinue.setGradientBackgroundColors(colors, direction: .toBottomLeft, for: .normal)
            btnContinue.layer.cornerRadius = 5
            btnContinue.clipsToBounds = true
-       }
+    }
 }

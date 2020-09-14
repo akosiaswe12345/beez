@@ -17,6 +17,7 @@
 		BB12A83C250C69AD001BF4A0 /* ADCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB12A83B250C69AD001BF4A0 /* ADCountryPicker.swift */; };
 		BB12A83E250C69B3001BF4A0 /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB12A83D250C69B3001BF4A0 /* CallingCodes.plist */; };
 		BB12A840250C6B62001BF4A0 /* assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB12A83F250C6B62001BF4A0 /* assets.bundle */; };
+		BB1E1292250EF62000F2E2B7 /* IntroduceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1E1291250EF62000F2E2B7 /* IntroduceViewController.swift */; };
 		BB4DFCB8250C2403007BDE0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4DFCB7250C2403007BDE0E /* AppDelegate.swift */; };
 		BB4DFCBC250C2403007BDE0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4DFCBB250C2403007BDE0E /* ViewController.swift */; };
 		BB4DFCBF250C2403007BDE0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4DFCBD250C2403007BDE0E /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		BB12A83B250C69AD001BF4A0 /* ADCountryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADCountryPicker.swift; sourceTree = "<group>"; };
 		BB12A83D250C69B3001BF4A0 /* CallingCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CallingCodes.plist; sourceTree = "<group>"; };
 		BB12A83F250C6B62001BF4A0 /* assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = assets.bundle; sourceTree = "<group>"; };
+		BB1E1291250EF62000F2E2B7 /* IntroduceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceViewController.swift; sourceTree = "<group>"; };
 		BB4DFCB4250C2403007BDE0E /* beez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4DFCB7250C2403007BDE0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB4DFCBB250C2403007BDE0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				BB859DC6250D759500847FF0 /* ResearchViewController.swift */,
 				BB859DC8250D82D100847FF0 /* AgeRangeViewController.swift */,
 				BB859DCA250D978E00847FF0 /* DistanceViewController.swift */,
+				BB1E1291250EF62000F2E2B7 /* IntroduceViewController.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				BB4DFCE9250C2F8F007BDE0E /* CreateNewAccountViewController.swift in Sources */,
 				BB035AA5250CA90500BD7E88 /* GenderViewController.swift in Sources */,
 				BB859DCB250D978E00847FF0 /* DistanceViewController.swift in Sources */,
+				BB1E1292250EF62000F2E2B7 /* IntroduceViewController.swift in Sources */,
 				BB035AA3250C9F2500BD7E88 /* WhoAreYouViewController.swift in Sources */,
 				BB4DFCB8250C2403007BDE0E /* AppDelegate.swift in Sources */,
 				BB859DC7250D759500847FF0 /* ResearchViewController.swift in Sources */,
