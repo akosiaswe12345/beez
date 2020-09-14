@@ -30,12 +30,32 @@ class DistanceViewController: UIViewController {
     }
     
     @IBAction func sliderAge(_ sender: UISlider) {
-        let value = slider.value
-        let formatted = String(format: "%.3f", value)
-        let result = String(formatted.dropFirst(2))
+        let value = Int(slider.value)
+        print("value", value)
+        lblKM.text = String(value) + "Km"
+
         
-     //   lblAgeLimit.text = result
-        print("GETVALUE", formatted)
+    }
+    func getFormattedless(result: String) -> String{
+        var value = ""
+        if result.contains("00"){
+            print("GETVALUE1", "0")
+            value = "0"
+        }
+        else if result == "01" || result == "02" || result == "03" || result == "04" || result == "05" || result == "06" || result == "07" || result == "08" || result == "09"{
+            
+            value = String(result.dropFirst(1))
+            
+        }else{
+            value = result
+        }
+        return value
+    }
+    
+    func getFormattedMore(result: String) -> String{
+        var value = ""
+        value = result.replacingOccurrences(of: ".", with: "")
+        return value
     }
     
     func progressView(){
