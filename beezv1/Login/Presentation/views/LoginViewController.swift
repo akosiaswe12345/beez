@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import FBSDKLoginKit
 
 class LoginViewController: UIViewController{
 
@@ -22,6 +22,16 @@ class LoginViewController: UIViewController{
         
         //tfUsername.becomeFirstResponder()
         initView()
+        
+        let loginButton = FBLoginButton()
+        loginButton.center = view.center
+        view.addSubview(loginButton)
+        
+        NotificationCenter.default.addObserver(forName: .AccessTokenDidChange, object: nil, queue: OperationQueue.main) { (notification) in
+            
+            // Print out access token
+            print("FB Access Token: \(String(describing: AccessToken.current?.tokenString))")
+        }
                
     }
     

@@ -1,24 +1,40 @@
 PODS:
   - ADCountryPicker (2.1.0)
   - DTGradientButton (0.1.3)
+  - FBSDKCoreKit (7.1.1):
+    - FBSDKCoreKit/Basics (= 7.1.1)
+    - FBSDKCoreKit/Core (= 7.1.1)
+  - FBSDKCoreKit/Basics (7.1.1)
+  - FBSDKCoreKit/Core (7.1.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (7.1.1):
+    - FBSDKLoginKit/Login (= 7.1.1)
+  - FBSDKLoginKit/Login (7.1.1):
+    - FBSDKCoreKit (~> 7.1.1)
   - IQKeyboardManagerSwift (6.5.5)
 
 DEPENDENCIES:
   - ADCountryPicker (~> 2.1.0)
   - DTGradientButton
+  - FBSDKCoreKit
+  - FBSDKLoginKit
   - IQKeyboardManagerSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - ADCountryPicker
     - DTGradientButton
+    - FBSDKCoreKit
+    - FBSDKLoginKit
     - IQKeyboardManagerSwift
 
 SPEC CHECKSUMS:
   ADCountryPicker: 502cee76a30ea1c3834eb0df170ce635691655c9
   DTGradientButton: 6f0f696cd433255d226c05e4ab047d991d13d4ef
+  FBSDKCoreKit: b46507dc8b8cefed31d644e74d7cc30e2a715ef8
+  FBSDKLoginKit: 1a61d79e2b25e2fc0d03dccab1e34b38bbdf2546
   IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
 
-PODFILE CHECKSUM: 2fc5acd28b7db53f46dc01715947166426f1c453
+PODFILE CHECKSUM: eff6d07800b179eb0025c0b7ded918e9a8139258
 
 COCOAPODS: 1.6.1
