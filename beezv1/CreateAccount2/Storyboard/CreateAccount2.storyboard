@@ -923,6 +923,9 @@
                                         <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="KJ1-eL-SBt" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="eqW-rO-8FV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1f-NY-i6e">
                                 <rect key="frame" x="39" y="26" width="84" height="34"/>
@@ -993,6 +996,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3tt-Q9-HSL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="912.79999999999995" y="929.68515742128943"/>
+        </scene>
+        <!--Dashboard-->
+        <scene sceneID="P5P-pC-BPa">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Dashboard" id="KJ1-eL-SBt" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7C4-i0-UOJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1546" y="963"/>
         </scene>
     </scenes>
     <resources>

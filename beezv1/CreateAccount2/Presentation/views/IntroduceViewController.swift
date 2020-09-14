@@ -52,7 +52,7 @@ class IntroduceViewController: UIViewController, AVAudioRecorderDelegate {
     }
     
     func startRecording() {
-        let audioFilename = getDocumentsDirectory().appendingPathComponent("recording.mp4")
+        let audioFilename = getDocumentsDirectory().appendingPathComponent("recording.m4a")
 
         let settings = [
             AVFormatIDKey: Int(kAudioFormatMPEG4AAC),
