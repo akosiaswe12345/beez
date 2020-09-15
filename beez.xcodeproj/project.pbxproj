@@ -77,6 +77,7 @@
 		BB4DFCE8250C2F8F007BDE0E /* CreateNewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewAccountViewController.swift; sourceTree = "<group>"; };
 		BB4DFCEA250C2F94007BDE0E /* VerifyEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyEmailViewController.swift; sourceTree = "<group>"; };
 		BB4DFCEC250C2F9A007BDE0E /* PhoneNumberVerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberVerificationViewController.swift; sourceTree = "<group>"; };
+		BB6CBEFA25108347007DFEF9 /* beez.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = beez.entitlements; sourceTree = "<group>"; };
 		BB859DC6250D759500847FF0 /* ResearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchViewController.swift; sourceTree = "<group>"; };
 		BB859DC8250D82D100847FF0 /* AgeRangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRangeViewController.swift; sourceTree = "<group>"; };
 		BB859DCA250D978E00847FF0 /* DistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewController.swift; sourceTree = "<group>"; };
@@ -191,6 +192,7 @@
 		BB4DFCAB250C2403007BDE0E = {
 			isa = PBXGroup;
 			children = (
+				BB6CBEFA25108347007DFEF9 /* beez.entitlements */,
 				BB4DFCB6250C2403007BDE0E /* beezv1 */,
 				BB4DFCB5250C2403007BDE0E /* Products */,
 				6E8A1A95F46410FFCA949F54 /* Pods */,
@@ -641,15 +643,16 @@
 			baseConfigurationReference = 565EA8333D1ACEF62CF8444F /* Pods-beez.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = beez.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WGCL8429Q2;
+				DEVELOPMENT_TEAM = X85G7797WR;
 				INFOPLIST_FILE = beezv1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.beezv1;
+				PRODUCT_BUNDLE_IDENTIFIER = beez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -661,15 +664,16 @@
 			baseConfigurationReference = D225B042C5A4781272E6B3FD /* Pods-beez.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = beez.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WGCL8429Q2;
+				DEVELOPMENT_TEAM = X85G7797WR;
 				INFOPLIST_FILE = beezv1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.beezv1;
+				PRODUCT_BUNDLE_IDENTIFIER = beez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
