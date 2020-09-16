@@ -19,6 +19,7 @@
 		BB12A840250C6B62001BF4A0 /* assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB12A83F250C6B62001BF4A0 /* assets.bundle */; };
 		BB1E1292250EF62000F2E2B7 /* IntroduceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1E1291250EF62000F2E2B7 /* IntroduceViewController.swift */; };
 		BB1E1298250F09A200F2E2B7 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1E1297250F09A200F2E2B7 /* Dashboard.storyboard */; };
+		BB2045142511A49300A157EC /* ProfilePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2045132511A49300A157EC /* ProfilePictureViewController.swift */; };
 		BB4DFCB8250C2403007BDE0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4DFCB7250C2403007BDE0E /* AppDelegate.swift */; };
 		BB4DFCBC250C2403007BDE0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4DFCBB250C2403007BDE0E /* ViewController.swift */; };
 		BB4DFCBF250C2403007BDE0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4DFCBD250C2403007BDE0E /* Main.storyboard */; };
@@ -57,6 +58,8 @@
 		BB12A83F250C6B62001BF4A0 /* assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = assets.bundle; sourceTree = "<group>"; };
 		BB1E1291250EF62000F2E2B7 /* IntroduceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceViewController.swift; sourceTree = "<group>"; };
 		BB1E1297250F09A200F2E2B7 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		BB20451225119B0C00A157EC /* beez.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = beez.entitlements; sourceTree = "<group>"; };
+		BB2045132511A49300A157EC /* ProfilePictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureViewController.swift; sourceTree = "<group>"; };
 		BB4DFCB4250C2403007BDE0E /* beez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4DFCB7250C2403007BDE0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB4DFCBB250C2403007BDE0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,7 +80,6 @@
 		BB4DFCE8250C2F8F007BDE0E /* CreateNewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewAccountViewController.swift; sourceTree = "<group>"; };
 		BB4DFCEA250C2F94007BDE0E /* VerifyEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyEmailViewController.swift; sourceTree = "<group>"; };
 		BB4DFCEC250C2F9A007BDE0E /* PhoneNumberVerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberVerificationViewController.swift; sourceTree = "<group>"; };
-		BB6CBEFA25108347007DFEF9 /* beez.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = beez.entitlements; sourceTree = "<group>"; };
 		BB859DC6250D759500847FF0 /* ResearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchViewController.swift; sourceTree = "<group>"; };
 		BB859DC8250D82D100847FF0 /* AgeRangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRangeViewController.swift; sourceTree = "<group>"; };
 		BB859DCA250D978E00847FF0 /* DistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				BB859DC8250D82D100847FF0 /* AgeRangeViewController.swift */,
 				BB859DCA250D978E00847FF0 /* DistanceViewController.swift */,
 				BB1E1291250EF62000F2E2B7 /* IntroduceViewController.swift */,
+				BB2045132511A49300A157EC /* ProfilePictureViewController.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -192,7 +195,7 @@
 		BB4DFCAB250C2403007BDE0E = {
 			isa = PBXGroup;
 			children = (
-				BB6CBEFA25108347007DFEF9 /* beez.entitlements */,
+				BB20451225119B0C00A157EC /* beez.entitlements */,
 				BB4DFCB6250C2403007BDE0E /* beezv1 */,
 				BB4DFCB5250C2403007BDE0E /* Products */,
 				6E8A1A95F46410FFCA949F54 /* Pods */,
@@ -499,6 +502,7 @@
 				BB4DFCDF250C2F6B007BDE0E /* LoginViewController.swift in Sources */,
 				BB12A838250C69A1001BF4A0 /* ADCountry.swift in Sources */,
 				BB4DFCDB250C28E8007BDE0E /* Constant.swift in Sources */,
+				BB2045142511A49300A157EC /* ProfilePictureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,14 +649,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = beez.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X85G7797WR;
+				DEVELOPMENT_TEAM = 277P8UDDX5;
 				INFOPLIST_FILE = beezv1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = beez;
+				PRODUCT_BUNDLE_IDENTIFIER = beez.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -666,14 +670,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = beez.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X85G7797WR;
+				DEVELOPMENT_TEAM = 277P8UDDX5;
 				INFOPLIST_FILE = beezv1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = beez;
+				PRODUCT_BUNDLE_IDENTIFIER = beez.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
