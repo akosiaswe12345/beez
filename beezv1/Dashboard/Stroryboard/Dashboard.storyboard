@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--View Controller-->
         <scene sceneID="a4U-YZ-7x4">
             <objects>
                 <viewController id="d0o-Cm-7Pz" sceneMemberID="viewController">
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HiD-ym-h4S">
-                                <rect key="frame" x="149" y="316" width="107" height="36"/>
+                                <rect key="frame" x="149" y="315.5" width="107" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="107" id="5zB-ft-xXr"/>
                                     <constraint firstAttribute="height" constant="36" id="e2f-uM-Yhf"/>
@@ -34,13 +34,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="99j-Ly-t5C"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="J4R-8i-lSa"/>
+                    <tabBarItem key="tabBarItem" title="" image="like" id="J4R-8i-lSa">
+                        <color key="badgeColor" red="0.97298294305801392" green="0.81667262315750122" blue="0.31253266334533691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VSp-Ws-BNx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="284" y="705.69715142428788"/>
         </scene>
-        <!--Item 1-->
+        <!--View Controller-->
         <scene sceneID="Z4r-pU-MOs">
             <objects>
                 <viewController id="alp-Rp-nrQ" sceneMemberID="viewController">
@@ -66,7 +68,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FVU-uW-ewX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="xeM-fw-zZq"/>
+                    <tabBarItem key="tabBarItem" title="" image="dashboard default" id="xeM-fw-zZq">
+                        <color key="badgeColor" red="0.97298294305801392" green="0.81667262315750122" blue="0.31253266334533691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DHg-aI-zYu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,6 +84,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.96078431372549022" green="0.78431372549019607" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.96078431369999995" green="0.7843137255" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="alp-Rp-nrQ" kind="relationship" relationship="viewControllers" id="mWw-ag-Lgh"/>
@@ -92,7 +98,7 @@
             </objects>
             <point key="canvasLocation" x="447" y="-164"/>
         </scene>
-        <!--Item 3-->
+        <!--View Controller-->
         <scene sceneID="aKv-ea-awi">
             <objects>
                 <viewController id="JjG-kd-wSE" sceneMemberID="viewController">
@@ -118,13 +124,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Fi-Rb-YV3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 3" id="e9d-2Q-17n"/>
+                    <tabBarItem key="tabBarItem" title="" image="chat" id="e9d-2Q-17n">
+                        <color key="badgeColor" red="0.97298294305801392" green="0.81667262315750122" blue="0.31253266334533691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fmt-iB-A2g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1005.6" y="705.69715142428788"/>
         </scene>
-        <!--Item 4-->
+        <!--View Controller-->
         <scene sceneID="O7S-Gp-LCJ">
             <objects>
                 <viewController id="V3H-ph-Jjv" sceneMemberID="viewController">
@@ -150,11 +158,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XLD-oZ-GyT"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 4" id="EoG-Uq-apg"/>
+                    <tabBarItem key="tabBarItem" title="" image="profile" id="EoG-Uq-apg">
+                        <color key="badgeColor" red="0.97298294305801392" green="0.81667262315750122" blue="0.31253266334533691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PaV-Mr-qoy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1769" y="706"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="chat" width="25" height="25"/>
+        <image name="dashboard default" width="25" height="25"/>
+        <image name="like" width="25" height="25"/>
+        <image name="profile" width="25" height="25"/>
+    </resources>
 </document>
