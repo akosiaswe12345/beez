@@ -255,3 +255,33 @@ extension UIView {
         self.layer.insertSublayer(gradient, at: 0)
     }
 }
+
+// circle image
+
+extension UIImageView {
+public func maskCircle(anyImage: UIImage) {
+
+    self.contentMode = UIView.ContentMode.scaleAspectFill
+    self.layer.cornerRadius = self.frame.height / 2
+    self.layer.masksToBounds = false
+    self.clipsToBounds = true
+
+    }
+}
+
+extension UserDefaults {
+    func imageForKey(key: String) -> UIImage? {
+        var image: UIImage?
+        if let imageData = data(forKey: key) {
+            image = NSKeyedUnarchiver.unarchiveObject(with: imageData) as? UIImage
+        }
+        return image
+    }
+    func setImage(image: UIImage?, forKey key: String) {
+        var imageData: NSData?
+        if let image = image {
+            imageData = NSKeyedArchiver.archivedData(withRootObject: image) as NSData?
+        }
+        set(imageData, forKey: key)
+    }
+}
