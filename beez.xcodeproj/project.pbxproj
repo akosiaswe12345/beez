@@ -42,6 +42,7 @@
 		BB859DC9250D82D100847FF0 /* AgeRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB859DC8250D82D100847FF0 /* AgeRangeViewController.swift */; };
 		BB859DCB250D978E00847FF0 /* DistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB859DCA250D978E00847FF0 /* DistanceViewController.swift */; };
 		BBED22832512CA2800F8AAF9 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED22822512CA2800F8AAF9 /* DashboardViewController.swift */; };
+		BBED22852512E9B100F8AAF9 /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED22842512E9B100F8AAF9 /* LikesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		BB859DC8250D82D100847FF0 /* AgeRangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRangeViewController.swift; sourceTree = "<group>"; };
 		BB859DCA250D978E00847FF0 /* DistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewController.swift; sourceTree = "<group>"; };
 		BBED22822512CA2800F8AAF9 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		BBED22842512E9B100F8AAF9 /* LikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
 		BF07DF4D711BBF05D7836070 /* Pods_beezv1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beezv1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D225B042C5A4781272E6B3FD /* Pods-beez.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beez.release.xcconfig"; path = "Target Support Files/Pods-beez/Pods-beez.release.xcconfig"; sourceTree = "<group>"; };
 		F7B5A01994C145F7F4CFE285 /* Pods-beezv1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beezv1.release.xcconfig"; path = "Target Support Files/Pods-beezv1/Pods-beezv1.release.xcconfig"; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				BBED22822512CA2800F8AAF9 /* DashboardViewController.swift */,
+				BBED22842512E9B100F8AAF9 /* LikesViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -504,6 +507,7 @@
 				BB12A83C250C69AD001BF4A0 /* ADCountryPicker.swift in Sources */,
 				BB4DFCE3250C2F76007BDE0E /* ForgotPasswordCodeViewController.swift in Sources */,
 				BB4DFCDF250C2F6B007BDE0E /* LoginViewController.swift in Sources */,
+				BBED22852512E9B100F8AAF9 /* LikesViewController.swift in Sources */,
 				BB12A838250C69A1001BF4A0 /* ADCountry.swift in Sources */,
 				BB4DFCDB250C28E8007BDE0E /* Constant.swift in Sources */,
 				BB2045142511A49300A157EC /* ProfilePictureViewController.swift in Sources */,
