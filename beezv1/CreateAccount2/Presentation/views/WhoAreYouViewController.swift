@@ -21,6 +21,12 @@ class WhoAreYouViewController: UIViewController {
        
     }
     
+    func initView(){
+           btnGradient()
+           progressView()
+            
+    }
+       
     func progressView(){
         let colors = [hexStringToUIColor(hex: "#FFB439").cgColor, hexStringToUIColor(hex: "#FFED86").cgColor]
              
@@ -28,12 +34,7 @@ class WhoAreYouViewController: UIViewController {
         viewLayer.layerGradient(startPoint: .centerRight, endPoint: .centerLeft, colorArray: colors, type: .axial)
     }
     
-    func initView(){
-        btnGradient()
-        progressView()
-         
-    }
-    
+   
     private func btnGradient(){
         let colors = [hexStringToUIColor(hex: "#FFED86"), hexStringToUIColor(hex: "#FFB439")]
         btnContinue.setGradientBackgroundColors(colors, direction: .toBottomLeft, for: .normal)
